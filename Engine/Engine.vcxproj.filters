@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="EngineMain.cpp" />
+    <ClCompile Include="Graphic.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="..\include\IMGUI\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\IMGUI\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\IMGUI\imgui_impl_glfw_gl3.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="TopDownTree.cpp" />
+    <ClCompile Include="BottomUpTree.cpp" />
+    <ClCompile Include="BoundingVolume.cpp" />
+    <ClCompile Include="Octree.cpp" />
+    <ClCompile Include="BSPTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Graphic.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="..\include\IMGUI\imgui_impl_glfw_gl3.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IMGUI\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IMGUI\stb_rect_pack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IMGUI\stb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IMGUI\stb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IMGUI\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\IMGUI\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="TopDownTree.h" />
+    <ClInclude Include="BottomUpTree.h" />
+    <ClInclude Include="BoundingVolume.h" />
+    <ClInclude Include="Octree.h" />
+    <ClInclude Include="BSPTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{0e9999dc-0cbc-42c7-8fbc-a75104fc4142}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
